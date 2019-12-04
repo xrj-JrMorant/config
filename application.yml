@@ -1,6 +1,6 @@
 spring:
+  profiles: dev
   application:
-    profiles: dev
     name: config
   cloud:
     config:
