@@ -1,10 +1,15 @@
 spring:
-  application:
-    name: foo
   profiles:
-    active: dev
-
+    active:
+      - dev
+---
 spring:
-  profiles: dev
+  profiles:
   application:
-    name: ddd
+    name: dev
+---
+spring:
+  profiles: test
+  application:
+    name: test
+    
