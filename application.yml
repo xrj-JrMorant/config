@@ -1,12 +1,10 @@
 spring:
+  application:
+    name: foo
+  profiles:
+    active: dev
+
+spring:
   profiles: dev
   application:
-    name: config
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:xrj-JrMorant/config.git
-server:
-  port: 3344
-
+    name: ddd
